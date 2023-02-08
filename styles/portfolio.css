@@ -4,12 +4,13 @@
 }
 
 /* Header and navigation styles */
-header{
+header {
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right,left;
+    background-position: bottom right, left;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -65,9 +66,66 @@ nav ul li {
     font-weight: 600;
     font-size: 45px;
 }
-.banner-description{
+
+.banner-description {
     color: #757575;
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+/* About section */
+main{
+    max-width:1140px ;
+    margin: 0 auto;
+}
+.about-me {
+    background: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+    padding:0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-top: 130px;
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+
+.description {
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+    padding:0 150px;
+}
+.more-info{
+    padding-bottom: 130px;
+    margin-bottom: 130px;
+}
+
+.more-info ul {
+    display: flex;
+    justify-content: space-evenly;
+   
+  
+}
+
+.more-info ul li {
+    list-style: none;
+}
+
+.info-title{
+    color: #757575;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.info-description {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
 }
