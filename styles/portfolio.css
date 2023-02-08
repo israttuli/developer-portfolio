@@ -165,12 +165,13 @@ main {
 }
 
 /* Resume Styles */
-.resume-section-title{
+.resume-section-title {
     text-align: center;
     font-weight: 700;
     font-size: 35px;
     color: #181818;
 }
+
 .resume-contant {
     display: flex;
     gap: 24px;
@@ -211,3 +212,30 @@ main {
 }
 
 /* Connect section */
+
+.connect {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.connect .section-title {
+    text-align: left;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+.connect input,
+textarea {
+    border: 0;
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+input[type='submit'] {
+    height: 64px;
+    width: 150px;
+}
